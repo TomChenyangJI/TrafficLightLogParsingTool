@@ -1,4 +1,4 @@
-This is a tool designed to parse the specific log files, with different types of data in separate log files. One type of file records the data of traffic lights collecting by many different instruments, including radar, lidar, camera, etc. And another type of log files records the data of some features of the traffic lights, including the id, height, GPS coordinates, etc. 
+This is a tool designed to parse the specific log files, with different types of data in separate log files. One type of file records the data of traffic lights collecting by many different instruments, including radar, lidar, camera, etc. And another type of log files records the data of some features of the traffic lights, including the id, height, GPS coordinates, etc. 
 
 The function of this tool is to find out the traffic light position, and then match its own features which are stored in another log file. This tool is programmed in Python, and compiled to exe format with Pyinstaller package. 
 
