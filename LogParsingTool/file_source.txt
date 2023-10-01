@@ -1,0 +1,8 @@
+# This is a tool built in python but converted to exe file with Pyinstaller package.  
+# This is the file where you configure the path variable created in the script. 
+# You can add the path to a log file to this file, a folder including log files, or a bar package with log files or folders with log files inwards to this file directly. 
+# You can add as many path to this file as you want, and no need to change the name of "path", which means you can add "path=C:\tmp\file.log" and "path=D:\tmp\innerTmp\file2.log" both to this file. But each path should lie in a separate line. 
+# In this file, lines starting with "#" means they are comments.
+
+path=C:\usr\tmp\file1.log
+path=C:\usr\tmp\file2.log
